@@ -1,0 +1,16 @@
+Componente que utiliza la API de WEKA para configurar una red Reuronal MultiCapa.
+
+SINTAXIS
+
+((-TRAIN_FILE:str [-HIDDEN_LAYERS:int][-CLASS_INDEX:int][-TRAINING_TIME:int][-LEARNING_RATE:float])|(-TEST_FILE:str -PREDICTION_PATH:str))
+
+DESCRIPCIÓN DE LA SINTAXIS
+
+-TRAIN_FILE 	  	Archivo que se utilizará como entrenamiento. El archivo debe estar en formato .arff
+-HIDDEN_LAYERS 	  	Número de capas ocultas en la red neuronal.
+-CLASS_INDEX 	  	Índice de la columna que contiene la clase.
+-TRAINING_TIME 	  	Número de generaciones en las que se entrenará la red neuronal.
+-LEARNING_RATE 	
+
+-TEST_FILE 		  	Archivo que contiene los datos para probar el entrenamiento de la red neuronal.
+-PREDICTION_PATH 	Directorio donde se almacenarán las predicciones de la red neuronal.
